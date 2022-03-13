@@ -12,7 +12,7 @@ Reasoning platform
   - A user can say Yes or No to the validity of bottom support or oppose connections.
   - A user can see comments for each connection.
   - Comments can be liked or disliked and are sorted by the likes value.
-  - There is a survey for each high end claim, asking Yes or No for bottom level connections.
+  - There is a survey for each claim, asking Yes or No for connections.
   - Upper level connections are calculated based on lower ones.
   - A user can add new support or oppose reasons to each claim.
   - Reasons with a lot of Noes will be archived. It means they do not effect the numbers and are not shown.
