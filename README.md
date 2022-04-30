@@ -44,7 +44,10 @@ Example 1:
                                     |
                                  Reason 3 (100% true)
                                  
-    Reason 2 truth = 100% - (Reason 3 truth * Reason 3 effect) = 100% - (100% * 60%) = 40% -> we applied 100% - because it is oppose and we do't have support reasons/ but there can be support reasons which are not yet discovered.
+    Reason 2 truth = 100% - (Reason 3 truth * Reason 3 effect) = 100% - (100% * 60%) = 40% -> we applied 100% - because it
+    is oppose and we don't have support reasons. but there can be support reasons which are not yet discovered. Same applies
+    to a claim with only support reasons.
+    
     Reason 1 truth = 100% - (Reason 2 truth * Reason 2 effect) = 100% - (40% * 10%) = 96%
     
     Reason 1 is 96% true.
