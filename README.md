@@ -72,6 +72,7 @@ Example 2:
 
     Truth of Reason 2 = (Reason 4 effect * Reason 4 truth) + (Reason 5 effect * Reason 5 truth) = (45% * 100%) + (22% * 100%) = 67%
 
-    Effect of Reason 2 = APT / total APT = 10% / 100% = 10% -> We assume total apt to be 100%, we suppose there are other support reasons which don't exist yet
+    Effect of Reason 2 = APT / total APT = 10% / 100% = 10% -> We assume total apt to be 100%, we suppose there
+    are other support reasons which are not discovered yet
 
     Truth of Reason 1 = 100% - (Reason 2 truth * Reason 2 effect) = 100% - (67% * 10%) = 93.3%
