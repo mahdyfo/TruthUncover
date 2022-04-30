@@ -32,15 +32,15 @@ Example 1:
 
 Example 2:
 
-                             Reason 1
-                                |
-                                | oppose (10%)
-                                |
-                             Reason 2
-         /                      |                     \
-       / oppose (APT=60%)       | support (APT=80%)     \ support (APT=40%)
-     /                          |                         \
-Reason 3 (100% true)        Reason 4 (100%)               Reason 5 (100%)
+                                 Reason 1
+                                    |
+                                    | oppose (10%)
+                                    |
+                                 Reason 2
+             /                      |                     \
+           / oppose (APT=60%)       | support (APT=80%)     \ support (APT=40%)
+         /                          |                         \
+    Reason 3 (100% true)        Reason 4 (100%)               Reason 5 (100%)
 
 
 Effect of Reason 3 = 60 / (60+80+40) = 33%
