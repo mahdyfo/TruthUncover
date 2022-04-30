@@ -29,6 +29,24 @@ There is an example for recent world event (All numbers are just examples):
 ![truchuncover-mechanism](README1.jpg)
 
 Example 1:
+    If reason 3 is 100% true and it opposes 60% to reason 2,
+    And if reason 2 opposes 10% to reason 1,
+    How much is the truth of reason 1?
+    
+                                 Reason 1
+                                    |
+                                    | oppose 10%
+                                    |
+                                 Reason 2
+                                    |
+                                    | oppose 60%
+                                    |
+                                 Reason 3 (100% true)
+                                 
+    Reason 2 truth = 100% - (Reason 3 truth * Reason 3 effect) = 100% - (100% * 60%) = 40% -> we applied 100% - because it is oppose and we do't have support reasons
+    Reason 1 truth = 100% - (Reason 2 truth * Reason 2 effect) = 100% - (40% * 10%) = 96%
+    
+    Reason 1 is 96% true.
 
 Example 2:
 
@@ -40,15 +58,15 @@ Example 2:
              /                      |                     \
            / oppose (APT=60%)       | support (APT=80%)     \ support (APT=40%)
          /                          |                         \
-    Reason 3 (100% true)        Reason 4 (100%)               Reason 5 (100%)
+    Reason 3 (100% true)        Reason 4 (100% true)                Reason 5 (100% true)
 
 
-Effect of Reason 3 = 60 / (60+80+40) = 33%
-Effect of Reason 4 = 80 / (60+80+40) = 45%
-Effect of Reason 5 = 40 / (60+80+40) = 22%
+    Effect of Reason 3 = 60 / (60+80+40) = 33%
+    Effect of Reason 4 = 80 / (60+80+40) = 45%
+    Effect of Reason 5 = 40 / (60+80+40) = 22%
 
-Truth of Reason 2 = (Reason 4 effect * Reason 4 truth) + (Reason 5 effect * Reason 5 truth) = (45 * 100) + (22 * 100) = 67%
+    Truth of Reason 2 = (Reason 4 effect * Reason 4 truth) + (Reason 5 effect * Reason 5 truth) = (45 * 100) + (22 * 100) = 67%
 
-Effect of Reason 2 = 10 / 100 = 10%
+    Effect of Reason 2 = 10 / 100 = 10%
 
-Truth of Reason 1 = 100% - (Reason 2 truth * Reason 2 effect) = 100% - (67% * 10%) = 93.3%
+    Truth of Reason 1 = 100% - (Reason 2 truth * Reason 2 effect) = 100% - (67% * 10%) = 93.3%
