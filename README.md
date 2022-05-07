@@ -1,6 +1,8 @@
 # TruthUncover
 Reasoning platform
 
+Every claim has reasons supporting or opposing it. Everyday we encounter many claims and we judge the truth of them by the reasons that we have in mind. Many times it gets difficult to calculate all of them without writing them down. Here we make a reasoning system to find the truth behind everything. Or at least the percentage of the truth.
+
 - A **claim** has many support reasons.
 - A **claim** has many oppose reasons.
 - Each of reasons has a connection to the claim that can be scored as effect.
