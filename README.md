@@ -13,7 +13,7 @@ Reasoning platform
 ---
 - Correctness of a **claim** is sum of its supports percentages:
   - A user can say Yes or No to the validity of connections.
-  - The last bottom claims' truth is 100%.
+  - The last bottom claim's truth is 100%.
   - A user can see comments for each connection when they want to vote.
   - Comments can be liked or disliked and are sorted by the likes value.
   - There is a survey for each claim, asking Yes or No for connections.
