@@ -26,8 +26,6 @@ Reasoning platform
 
 There is an example for recent world event (All numbers are just examples):
 
-![truchuncover-mechanism](README1.jpg)
-
 Example 1:
 
     If reason 3 is 100% true and it opposes 60% to reason 2,
