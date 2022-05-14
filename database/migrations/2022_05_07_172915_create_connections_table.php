@@ -21,6 +21,7 @@ class CreateConnectionsTable extends Migration
 
             $table->foreign('parent_id')->references('id')->on('reasons')->cascadeOnDelete()->cascadeOnUpdate();
             $table->foreign('child_id')->references('id')->on('reasons')->cascadeOnDelete()->cascadeOnUpdate();
+            $table->unique(['parent_id', 'child_id']);
         });
     }
 

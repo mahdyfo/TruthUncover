@@ -21,6 +21,7 @@ class CreateCommentVoteTable extends Migration
 
             $table->foreign('vote_id')->references('id')->on('votes')->cascadeOnDelete()->cascadeOnUpdate();
             $table->foreign('comment_id')->references('id')->on('comments')->cascadeOnDelete()->cascadeOnUpdate();
+            $table->unique(['vote_id', 'comment_id']);
         });
     }
 

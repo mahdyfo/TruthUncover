@@ -22,6 +22,7 @@ class CreateVotesTable extends Migration
 
             $table->foreign('connection_id')->references('id')->on('connections')->cascadeOnDelete()->cascadeOnUpdate();
             $table->foreign('user_id')->references('id')->on('users')->cascadeOnDelete()->cascadeOnUpdate();
+            $table->unique(['connection_id', 'user_id']);
         });
     }
 

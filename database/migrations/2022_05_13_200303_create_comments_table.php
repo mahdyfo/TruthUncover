@@ -22,7 +22,7 @@ class CreateCommentsTable extends Migration
 
             $table->foreign('vote_id')->references('id')->on('votes')->cascadeOnDelete()->cascadeOnUpdate();
             $table->foreign('user_id')->references('id')->on('users')->cascadeOnDelete()->cascadeOnUpdate();
-
+            $table->unique(['vote_id', 'user_id']);
         });
     }
 
