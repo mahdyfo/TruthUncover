@@ -8,6 +8,13 @@ use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait Likeable
 {
+    protected static function booted()
+    {
+        static::deleted(function ($likeable) {
+            $likeable->allLikes()->delete();
+        });
+    }
+
     public function allLikes(): MorphMany
     {
         /** @var $this Model */
