@@ -26,7 +26,8 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'TruthUncover') }}
                 </a>
-                <small class="text-muted mt-2">When the fallacy disappears, like an ice melting under hot water</small>
+                <small class="text-muted mt-lg-1 sub-header">When the fallacy disappears, like an ice melting under hot water</small>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
