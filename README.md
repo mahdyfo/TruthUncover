@@ -78,3 +78,26 @@ Example 2:
     are other support reasons which are not discovered yet
 
     Truth of Reason 1 = 100% - (Reason 2 truth * Reason 2 effect) = 100% - (67% * 10%) = 93.3%
+
+----------------------------
+
+Method 2:
+
+- A **claim** has many supportive comments.
+- A **claim** has many opposing comments.
+- Each of reasons has a connection to the claim that can be scored as effect.
+- **RT** = Relation Truth. Each connection has an RT value.
+- Sum of all reasons for a claim is 1.
+- Each **RT** = P(A|B). Where P(A) is the truth probability of the claim and P(B) is the truth probability of the reason of it.
+- **Truth** percecntage of a claim = P(A) = P(A.B) = P(A|B) * P(B)
+---
+- Correctness of a **claim** is sum of its supports percentages:
+  - The last bottom claim's truth is 100%.
+  - A user can see comments for each reason when they want to vote.
+  - Comments can be liked or disliked and are sorted by the likes value.
+  - Upper level connections are calculated after each vote.
+  - A user can add new supportive or oppossing vote to each claim by liking a comment only from one section or adding new comment.
+  - Reasons with a lot of Noes will be archived (e.g. <4% APT). It means they do not effect the truth calculation and also are not shown.
+  - New reasons are not taken into effect until they get an specific number of votes e.g. 100.
+  - Users can report a reason as duplicate. Highly reported duplicated reasons will be archived.
+  - Users can report a reason as ambiguous. Highly reported ambiguous reasons will be archived until author clarifies it more.
